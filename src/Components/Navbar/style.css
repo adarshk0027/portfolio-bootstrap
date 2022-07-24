@@ -1,0 +1,24 @@
+.nav{
+    box-shadow: var(--box-Shadow);
+}
+.navbar-nav .nav-link{
+    font-weight: 500;
+    color: var(--color-dark);
+}
+.navbar-nav .nav-link .active{
+    color: var(--color-blue);
+}
+.navbar-brand{
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    z-index: 1;
+    justify-content: stretch;
+}
+.navbar-brand img{
+    background-size: cover;
+    height: 8rem;
+    position: relative;
+    top: -3.1rem;
+
+}

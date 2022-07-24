@@ -1,0 +1,16 @@
+.main {
+    background: linear-gradient(rgba(var(--color-rgb), 0.334), rgba(0, 0, 0, 0.981)), url(../../image/hero-1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+} 
+.main-btn{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+    gap: 3rem;
+    width: 20rem;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

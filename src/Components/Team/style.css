@@ -1,0 +1,18 @@
+.team{
+    padding-bottom: 3rem;
+}
+
+.teams .img-content{
+    position: absolute;
+    top: 70%;
+    left: 0;
+    background-color: var(--color-blue);
+    width: 100%;
+    color: var(--color-white);
+    transition: var(--transition);
+    opacity: 0;
+}
+.teams:hover .img-content{
+    opacity: 1;
+    top: 80%;
+}

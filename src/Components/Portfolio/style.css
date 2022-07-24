@@ -1,0 +1,33 @@
+.portfolio{
+    padding-bottom: 3rem;
+}
+.image-zoom{
+    position: relative;
+    overflow: hidden;
+}
+.image-zoom-wrapper{
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition)
+}
+.image-zoom-wrapper:hover img{
+   transform: scale(1.1);
+}
+.image-zoom .icon{
+    font-size: 2rem;
+}
+.image-zoom .link{
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--color-light);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: var(--transition);
+} 
+.image-item:hover .link{
+    opacity: 1;
+    top: 50%;
+}
